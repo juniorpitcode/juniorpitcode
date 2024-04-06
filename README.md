@@ -1,16 +1,33 @@
-### Hi there 👋
+<!DOCTYPE html>
+<html lang="pt-br">
 
-<!--
-**juniorpitcode/juniorpitcode** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub API - buscando usuários com fetch</title>
 
-Here are some ideas to get you started:
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<body>
+    <main>
+        <i class="devicon-github-original"></i>
+
+        <section class="container">
+            <header>
+                <h2>Buscar Usuário</h2>
+                <input type="text" id="input-search" placeholder="Digite o nome do usuário no GitHub">
+                <input type="button" value="Buscar" id="btn-search">
+            </header>
+
+            <div class="profile-data"></div>
+        </section>
+    </main>
+
+    <script type="module" src="src/scripts/index.js"></script>
+</body>
+
+</html>
